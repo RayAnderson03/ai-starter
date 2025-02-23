@@ -12,8 +12,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #f4f4f4;
+            overflow-y: auto;
         }
         .container {
             width: 900px;
@@ -22,6 +23,7 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             overflow: hidden;
+            min-height: 90vh;
         }
         .sidebar {
             width: 30%;
@@ -43,6 +45,8 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
+            overflow-y: auto;
+            max-height: 90vh;
         }
         h2 {
             color: #2980b9;
